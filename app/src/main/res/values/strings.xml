@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Word Jumble</string>
+    <string name="Title1">WORD</string>
+    <string name="Title2">JUMBLE</string>
+    <string name="enter_the_word">Enter the word</string>
+    <string name="enter_the_clue">Enter the clue</string>
+    <string name="button_start">Start</string>
+    <string name="word_Value">Word</string>
+    <string name="clue_Value">Clue</string>
+    <string name="lives">Lives</string>
+    <string name="reset">Reset</string>
+    <string name="check">Check</string>
+    <string name="demo">A</string>
+    <string name="asterisk">*</string>
+    <string name="clue">CLUE</string>
+    <string name="okay">Okay</string>
+    <string name="home">Home</string>
+    <string name="play_again">Play Again</string>
+    <string name="high_score_text">High Score</string>
+</resources>

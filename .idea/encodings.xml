@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/game_over.wav" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/game_win.mp3" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/life_lost.wav" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/reset.mp3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/selection_made.mp3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/selection_made.wav" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/start.mp3" charset="UTF-8" />
+  </component>
+</project>

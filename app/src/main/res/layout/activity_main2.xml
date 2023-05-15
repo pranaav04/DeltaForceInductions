@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="86dp"
+        android:layout_height="31dp"
+        android:background="@drawable/hehe"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="@string/lives"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="145dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#5D3FD4"
+        android:text="@string/reset"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        app:strokeColor="#9de8ff"
+        app:strokeWidth="2.5dp"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="145dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#5D3FD4"
+        android:text="@string/check"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        app:strokeColor="#9de8ff"
+        app:strokeWidth="2.5dp"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="41dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
+        app:srcCompat="@drawable/heart"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="41dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
+        app:srcCompat="@drawable/heart"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="41dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
+        app:srcCompat="@drawable/heart"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="58dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="149dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/info_icon"
+        tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="340dp"
+        android:layout_height="347dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_button_2"
+                android:clickable="true"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateSpeakableTextCheck,KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:background="@drawable/custom_button_2"
+                android:gravity="center"
+                android:hint="@string/asterisk"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TextSizeCheck"
+                 />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@drawable/custom_background_3"
+        android:gravity="center"
+        android:letterSpacing="0.8"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.181" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
